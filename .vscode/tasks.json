@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "HM: start storefront (http://localhost:3000)",
+			"type": "shell",
+			"command": "${command:python.interpreterPath}",
+			"args": ["hm-vintage-shoes/server.py"],
+			"isBackground": true,
+			"group": "build",
+			"problemMatcher": [],
+			"presentation": { "reveal": "always", "panel": "dedicated" }
+		}
+	]
+}

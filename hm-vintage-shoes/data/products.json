@@ -1,0 +1,141 @@
+{
+  "colours": [
+    { "id": "black", "name": "Black", "hex": "#1a1714" },
+    { "id": "brown", "name": "Brown", "hex": "#6b4226" },
+    { "id": "tan", "name": "Tan", "hex": "#b87a3d" },
+    { "id": "burgundy", "name": "Burgundy", "hex": "#6d1f2b" }
+  ],
+  "products": [
+    {
+      "id": "firenze-cap-toe-oxford-black",
+      "name": "Firenze Cap-Toe Oxford",
+      "style": "Oxford",
+      "colour": "black",
+      "price": 19500,
+      "condition": "Excellent",
+      "featured": true,
+      "blurb": "Sharp, quiet and endlessly wearable.",
+      "description": "A clean cap-toe in deep black leather. Smart enough for the boardroom, understated enough for a wedding, and photographed in low light so you can see how the leather holds its shine.",
+      "details": ["Made in Italy", "Leather upper", "Cap-toe lace-up", "Condition: Excellent, barely worn"],
+      "images": [
+        { "photo": "4161710", "alt": "Black leather cap-toe lace-up shoe photographed side-on against a black background" }
+      ],
+      "stock": { "40": 1, "42": 1, "43": 2, "45": 1 }
+    },
+    {
+      "id": "bologna-wingtip-oxford-black",
+      "name": "Bologna Wingtip Oxford",
+      "style": "Brogue",
+      "colour": "black",
+      "price": 17900,
+      "condition": "Very good",
+      "featured": true,
+      "blurb": "Medallion broguing with a worn-in shine.",
+      "description": "A black wingtip oxford with medallion broguing. Years of wear have given the leather a soft, lived-in character that brand-new shoes cannot fake.",
+      "details": ["Made in Italy", "Leather upper", "Wingtip oxford with broguing", "Condition: Very good, gentle wear"],
+      "images": [
+        { "photo": "15557044", "alt": "Pair of black leather wingtip oxfords with brogue perforations, seen from above on a white background" },
+        { "photo": "15557045", "alt": "Black wingtip oxfords from above, showing the creasing of the leather" }
+      ],
+      "stock": { "41": 1, "42": 2, "43": 1, "44": 1 }
+    },
+    {
+      "id": "siena-plain-toe-derby-brown",
+      "name": "Siena Plain-Toe Derby",
+      "style": "Derby",
+      "colour": "brown",
+      "price": 14500,
+      "condition": "Very good",
+      "featured": true,
+      "blurb": "Warm chocolate brown for everyday wear.",
+      "description": "A relaxed plain-toe derby in warm chocolate brown. The open lacing makes it easy to adjust, and the clean front pairs with everything from denim to tailoring.",
+      "details": ["Made in Italy", "Leather upper", "Plain-toe derby, open lacing", "Condition: Very good, gentle wear"],
+      "images": [
+        { "photo": "28387105", "alt": "Pair of brown leather plain-toe derby shoes resting on white fabric" }
+      ],
+      "stock": { "41": 1, "42": 1, "43": 1, "44": 2 }
+    },
+    {
+      "id": "verona-wingtip-derby-brown",
+      "name": "Verona Wingtip Derby",
+      "style": "Brogue",
+      "colour": "brown",
+      "price": 18900,
+      "condition": "Excellent",
+      "featured": false,
+      "blurb": "Full brogue detail in rich chestnut.",
+      "description": "Full brogue detailing on a sturdy derby last, in a rich chestnut brown. A natural partner for chinos, denim and tailoring alike.",
+      "details": ["Made in Italy", "Leather upper", "Wingtip derby with full broguing", "Condition: Excellent, barely worn"],
+      "images": [
+        { "photo": "6765524", "alt": "Brown leather wingtip derby brogues with brass shoe trees on a display stand" },
+        { "photo": "6764994", "alt": "Brown wingtip derby brogues on a display stand, side view" },
+        { "photo": "6766352", "alt": "Brown wingtip derby brogues with shoe trees, seen from above" }
+      ],
+      "stock": { "42": 1, "43": 1, "44": 1 }
+    },
+    {
+      "id": "napoli-wholecut-oxford-tan",
+      "name": "Napoli Wholecut Oxford",
+      "style": "Oxford",
+      "colour": "tan",
+      "price": 24500,
+      "condition": "Excellent",
+      "featured": true,
+      "blurb": "A hand-burnished, two-tone patina.",
+      "description": "A wholecut oxford with a hand-burnished patina: amber at the centre, deeper brown at the toe and heel. The most distinctive pair in the collection.",
+      "details": ["Made in Italy", "Leather upper", "Wholecut oxford", "Condition: Excellent, barely worn"],
+      "images": [
+        { "photo": "8670488", "alt": "Hand-burnished tan and amber wholecut oxfords with cedar shoe trees, shown from above and from the side" }
+      ],
+      "stock": { "41": 1, "42": 1, "43": 1 }
+    },
+    {
+      "id": "roma-brogue-tan",
+      "name": "Roma Brogue",
+      "style": "Brogue",
+      "colour": "tan",
+      "price": 16500,
+      "condition": "Very good",
+      "featured": false,
+      "blurb": "Sun-warmed tan for linen and khaki.",
+      "description": "A tan wingtip brogue with a sun-warmed colour that suits linen, khaki and lighter tailoring.",
+      "details": ["Made in Italy", "Leather upper", "Wingtip brogue", "Condition: Very good, gentle wear"],
+      "images": [
+        { "photo": "4637874", "alt": "Pair of tan leather wingtip brogues on a cream sofa" }
+      ],
+      "stock": { "40": 1, "41": 1, "42": 2, "44": 1 }
+    },
+    {
+      "id": "torino-kiltie-loafer-burgundy",
+      "name": "Torino Kiltie Loafer",
+      "style": "Loafer",
+      "colour": "burgundy",
+      "price": 15900,
+      "condition": "Very good",
+      "featured": false,
+      "blurb": "Fringed kiltie tongue, deep burgundy.",
+      "description": "A burgundy loafer with a fringed kiltie tongue. Dressy enough for the office and relaxed enough for the weekend.",
+      "details": ["Made in Italy", "Leather upper", "Kiltie loafer, slip-on", "Condition: Very good, gentle wear"],
+      "images": [
+        { "photo": "6069536", "focus": "100% 60%", "alt": "Burgundy leather kiltie loafer with a fringed tongue on a wooden crate in a vintage shop" }
+      ],
+      "stock": { "41": 1, "43": 1, "44": 1 }
+    },
+    {
+      "id": "milano-oxblood-brogue-burgundy",
+      "name": "Milano Oxblood Brogue",
+      "style": "Brogue",
+      "colour": "burgundy",
+      "price": 21500,
+      "condition": "Excellent",
+      "featured": true,
+      "blurb": "Glossy oxblood wingtips.",
+      "description": "A polished wingtip brogue in glossy oxblood. The colour deepens beautifully with each polish.",
+      "details": ["Made in Italy", "Leather upper", "Wingtip brogue", "Condition: Excellent, barely worn"],
+      "images": [
+        { "photo": "221437", "alt": "Burgundy leather wingtip brogues seen from above, standing on autumn leaves" }
+      ],
+      "stock": { "42": 1, "43": 1, "45": 1 }
+    }
+  ]
+}

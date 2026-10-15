@@ -1,0 +1,15 @@
+{
+  "zones": [
+    { "id": "nairobi", "label": "Nairobi", "areas": "Nairobi County", "fee": 300, "eta": "Same or next day" },
+    { "id": "metro", "label": "Greater Nairobi", "areas": "Kiambu, Kajiado, Machakos", "fee": 450, "eta": "1-2 working days" },
+    { "id": "country", "label": "Rest of Kenya", "areas": "All other counties", "fee": 750, "eta": "2-4 working days" }
+  ],
+  "metro": ["Kiambu", "Kajiado", "Machakos"],
+  "counties": [
+    "Baringo", "Bomet", "Bungoma", "Busia", "Elgeyo-Marakwet", "Embu", "Garissa", "Homa Bay", "Isiolo", "Kajiado",
+    "Kakamega", "Kericho", "Kiambu", "Kilifi", "Kirinyaga", "Kisii", "Kisumu", "Kitui", "Kwale", "Laikipia",
+    "Lamu", "Machakos", "Makueni", "Mandera", "Marsabit", "Meru", "Migori", "Mombasa", "Murang'a", "Nairobi",
+    "Nakuru", "Nandi", "Narok", "Nyamira", "Nyandarua", "Nyeri", "Samburu", "Siaya", "Taita-Taveta", "Tana River",
+    "Tharaka-Nithi", "Trans-Nzoia", "Turkana", "Uasin Gishu", "Vihiga", "Wajir", "West Pokot"
+  ]
+}

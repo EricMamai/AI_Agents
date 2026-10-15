@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-KE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout | HM</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#1b1511">
+  <link rel="icon" type="image/svg+xml" href="/img/logo.svg">
+  <link rel="preload" href="/fonts/cormorant-garamond.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="page-checkout">
+<!--@header-->
+<main id="main" class="wrap">
+  <h1 class="page-title">Checkout</h1>
+  <p class="mode-banner" data-mode-banner hidden></p>
+
+  <div class="checkout" data-checkout hidden>
+    <form class="checkout-form" data-form novalidate>
+      <section class="form-section" aria-labelledby="s1">
+        <h2 id="s1"><span class="num">1</span>Your details</h2>
+        <div class="field">
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required minlength="2" maxlength="80">
+          <p class="error-text" data-error-for="name"></p>
+        </div>
+        <div class="field">
+          <label for="phone">Phone number</label>
+          <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="0712 345 678" required>
+          <p class="hint">We call or text this number about your delivery.</p>
+          <p class="error-text" data-error-for="phone"></p>
+        </div>
+      </section>
+
+      <section class="form-section" aria-labelledby="s2">
+        <h2 id="s2"><span class="num">2</span>Delivery in Kenya</h2>
+        <div class="field">
+          <label for="county">County</label>
+          <select id="county" name="county" required autocomplete="address-level1">
+            <option value="">Select your county</option>
+          </select>
+          <p class="hint" data-zone-note>Delivery fee and time depend on your county.</p>
+          <p class="error-text" data-error-for="county"></p>
+        </div>
+        <div class="field">
+          <label for="town">Town or area</label>
+          <input id="town" name="town" type="text" autocomplete="address-level2" required maxlength="60" placeholder="e.g. Westlands, Nyali, Milimani">
+          <p class="error-text" data-error-for="town"></p>
+        </div>
+        <div class="field">
+          <label for="address">Street, building or landmark</label>
+          <textarea id="address" name="address" rows="3" required minlength="5" maxlength="160" autocomplete="street-address" placeholder="e.g. Along Ngong Road, opposite Prestige Plaza, Gate B"></textarea>
+          <p class="error-text" data-error-for="address"></p>
+        </div>
+        <div class="field">
+          <label for="notes">Delivery notes <span class="optional">(optional)</span></label>
+          <input id="notes" name="notes" type="text" maxlength="200" placeholder="e.g. Call when you reach the gate">
+        </div>
+      </section>
+
+      <section class="form-section mpesa-box" aria-labelledby="s3">
+        <h2 id="s3"><span class="num">3</span>Pay with M-Pesa</h2>
+        <p class="mpesa-lead"><span class="mpesa-badge">M-PESA</span> We will send a payment request to your phone. You approve it with your <span class="nowrap">M-Pesa PIN</span>. M-Pesa is our only payment method.</p>
+        <label class="check">
+          <input type="checkbox" data-other-number>
+          <span>Pay from a different M-Pesa number</span>
+        </label>
+        <div class="field" data-mpesa-field hidden>
+          <label for="mpesaPhone">M-Pesa number</label>
+          <input id="mpesaPhone" name="mpesaPhone" type="tel" inputmode="tel" placeholder="0712 345 678">
+          <p class="error-text" data-error-for="mpesaPhone"></p>
+        </div>
+        <p class="hint">Use a Safaricom line that is registered for M-Pesa and has enough balance for the total.</p>
+      </section>
+
+      <p class="form-error" role="alert" data-form-error hidden></p>
+      <button class="btn btn-mpesa btn-block pay-btn" type="submit" data-pay>Pay with M-Pesa</button>
+      <p class="fine">By paying you agree to receive an M-Pesa prompt on the number above. You will not be charged unless you enter your PIN.</p>
+    </form>
+
+    <aside class="summary" aria-label="Order summary" data-summary></aside>
+  </div>
+
+  <div class="empty-state" data-empty hidden>
+    <h2>Your bag is empty</h2>
+    <p>Add a pair of shoes to your bag to check out.</p>
+    <a class="btn btn-primary" href="/shop">Browse shoes</a>
+  </div>
+</main>
+
+<dialog class="pay-dialog" data-dialog aria-labelledby="pay-title">
+  <div class="pay-body" data-dialog-body></div>
+</dialog>
+<!--@footer-->
+<script type="module" src="/js/checkout.js"></script>
+</body>
+</html>
